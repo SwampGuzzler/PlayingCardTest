@@ -1,22 +1,33 @@
 {
-  "name": "hello-express",
-  "description": "A hello world app using express",
-  "version": "0.0.1",
-  "dependencies": {},
+  "name": "PlayingCardTest",
+  "version": "0.0.0",
+  "description": "Playing Card Test",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "~1.9.1",
+    "grunt-cli": "~0.1.13"
+  },
   "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2",
     "grunt": "^0.4.4",
-    //"grunt-express-server": "^0.4.17",
     "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-copy": "^0.5.0",
-    "grunt-contrib-clean": "^0.5.0",
-    "chai": "^1.9.1",
-    "globule": "^0.2.0",
-    "matchdep": "^0.3.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "mocha": "^1.18.2",
-    "grunt-simple-mocha": "^0.4.0"
+    "grunt-simple-mocha": "^0.4.0",
   },
   "scripts": {
-    "test": "test/*.js"
-  }
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SwampGuzzler/PlayingCardTest.git"
+  },
+  "author": "Lucas Cotner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SwampGuzzler/PlayingCardTest/issues"
+  },
+  "homepage": "https://github.com/SwampGuzzler/PlayingCardTest"
 }
